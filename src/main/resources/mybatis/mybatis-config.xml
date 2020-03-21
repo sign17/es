@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!-- 是否开启自动驼峰命名规则 -->
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <!--开启懒加载-->
+        <setting name="lazyLoadingEnabled" value="true"/>
+        <!--关闭积极加载-->
+        <setting name="aggressiveLazyLoading" value="false"/>
+    </settings>
+
+    <!-- 引入分页插件 pagehelper pom文件中已经引入-->
+
+</configuration>
